@@ -5,11 +5,11 @@ void swap(int *a, int *b)
   *a = *b;
   *b = temp;
 
-  
 }
 void setup() {
   Serial.begin(9600);// put your setup code here, to run once:
 
+  Serial.println("hello");
 }
 
 void loop() {
